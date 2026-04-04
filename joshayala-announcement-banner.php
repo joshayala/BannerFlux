@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Announcement Banner
+ * Plugin Name: BannerFlux
  * Plugin URI:  https://github.com/joshayala/announcement-banner
  * Description: Displays a customizable announcement banner across the site.
  * Version:     1.0.0
