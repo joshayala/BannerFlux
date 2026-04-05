@@ -20,8 +20,18 @@ type, and an optional call-to-action link directly from the WordPress admin pane
 
 ## Screenshots
 
-> _Add screenshots here once deployed — one of the admin settings page and one 
-> of each banner type on the front end._
+### Admin Settings Page
+![Admin Settings Page](<images/settings-page.png>)
+
+### Info Banner
+![Info Banner](<images/info-banner.png>)
+
+### Warning Banner
+![Warning Banner](<images/warning-banner.png>)
+
+### Error Banner
+![Error Banner](<images/error-banner.png>)
+
 
 ---
 
@@ -34,13 +44,13 @@ type, and an optional call-to-action link directly from the WordPress admin pane
 
 2. Activate the plugin from **WP Admin → Plugins → Installed Plugins**.
 
-3. Navigate to **Settings → Announcement Banner** to configure your banner.
+3. Navigate to **Settings → BannerFlux** to configure your banner.
 
 ---
 
 ## Usage
 
-Once activated, visit **Settings → Announcement Banner** in your WordPress admin 
+Once activated, visit **Settings → BannerFlux** in your WordPress admin 
 panel. From there you can:
 
 - **Enable Banner** — Toggle the banner on or off sitewide
@@ -132,4 +142,4 @@ This plugin is licensed under the [GPL v2 or later](https://www.gnu.org/licenses
 **Joshua Ayala**  
 [joshuaayala.com](https://joshuaayala.com) · 
 [GitHub](https://github.com/joshayala) · 
-[LinkedIn](https://www.linkedin.com/in/josh-ayala-dev)
+[LinkedIn](https://www.linkedin.com/in/joshuaayala-dev)
