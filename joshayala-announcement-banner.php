@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: BannerFlux
- * Plugin URI:  https://github.com/joshayala/announcement-banner
+ * Plugin URI:  https://github.com/joshayala/BannerFlux
  * Description: Displays a customizable announcement banner across the site.
  * Version:     1.0.0
  * Author:      Joshua Ayala
@@ -29,10 +29,10 @@ add_action('admin_menu', 'jab_add_admin_menu');
 function jab_add_admin_menu()
 {
     add_options_page(
-        'Announcement Banner',
-        'Announcement Banner',
+        'BannerFlux',
+        'BannerFlux',
         'manage_options',
-        'announcement-banner',
+        'bannerflux',
         'jab_settings_page'
     );
 }
@@ -52,7 +52,7 @@ function jab_settings_init()
 function jab_settings_page()
 { ?>
     <div class="wrap">
-        <h1>Announcement Banner</h1>
+        <h1>BannerFlux</h1>
         <form method="post" action="options.php">
             <?php settings_fields('jab_settings'); ?>
             <table class="form-table">
